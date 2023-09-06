@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containergrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+    grid-template-rows: 100px 100px 100px;
+    margin-top: 2rem;
+}
+
+
+
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6,
+.item-7,
+.item-8,
+.item-9{
+    padding:10px;
+    /* border:1px solid #000; */
+
+}
+
+.item-1{
+    background-color: aqua;
+}
+
+.item-1:hover{
+    background-color: blanchedalmond;
+
+}
+
+.item-2{
+    background-color: red;
+}
+
+.item-2:hover{
+    background-color:#f7f7f7;
+
+}
+
+.item-3{
+    background-color: sandybrown;
+}
+
+.item-3:hover{
+    background-color: palevioletred;
+
+}
+
+.item-4{
+    background-color: purple;
+}
+
+.item-4:hover{
+    background-color:gold;
+
+}
+
+.item-5{
+    background-color: black;
+    color: white;
+}
+
+.item-5:hover{
+    background-color: skyblue;
+
+}
+
+.item-6{
+    background-color: wheat;
+}
+
+.item-6:hover{
+    background-color: tomato;
+
+}
+
+.item-7{
+    background-color: brown;
+}
+
+.item-7:hover{
+    background-color:white;
+
+}
+
+.item-8{
+    background-color: forestgreen;
+}
+
+.item-8:hover{
+    background-color: aliceblue;
+
+}
+
+.item-9{
+    background-color: blue;
+}
+
+.item-9:hover{
+    background-color:yellow;
+
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.box11{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.box22{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.box3{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.box33{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.box4{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.box44{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.box5{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.box55{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.box6{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.box66{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.box7{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.box77{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.box8{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.box88{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.box9{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+
+.box99{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+
+.grid-containers{
+    display: grid;
+    grid-template-rows: repeat(2fr, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    margin: 30px;
+    grid-gap:50px
+}
+
+.grid-card{
+    height: 269px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb (175, 118, 216);
+    border: 2px solid pink;
+}
+
+.grid-card-6{
+    height: 219px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(213, 204, 220);
+    border: 2px pink;
+}
+
+.grid-card-1{
+    height: 600px;
+    border-radius: 10px;
+    background-color: rgb(214, 214, 214);
+    padding: 20px;
+    border: 2px solid pink;
+    grid-column: span 2;
+
+}
+
+.grid-card-8{
+    height: 570px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(201, 195, 206);
+    border: 2px solid rgba(167, 161, 162, 0.882);
+}
+
+
+
+
+
