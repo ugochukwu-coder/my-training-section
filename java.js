@@ -95,7 +95,11 @@ if (day === 'monday') {
     console.log('Enjoy weekend')
 } else ('Not a valid day');
 
-
+const objt = {
+    firstName: '',
+    lastName: '',
+    birthYear: ''
+}
 
 
 
